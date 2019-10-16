@@ -48,3 +48,8 @@ CREATE TABLE property_reviews (
   rating SMALLINT NOT NULL DEFAULT 0,
   message TEXT
 );
+
+insert into reservations (
+  id, start_date, end_date,property_id,guest_id
+)
+values(3,'2018-03-03','2018-03-03',3,3);
